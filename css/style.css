@@ -14,6 +14,7 @@ html, body{
 }
 a{
 	text-decoration: none;
+	display: block;
 
 }
 .main{
@@ -47,7 +48,8 @@ menu ul{
 }
 menu ul li{
 	width: 101px;
-	height: 100%;	
+	height: 100%;
+	margin-right: 25px;
 	display: inline-block;
 	text-align: center;
 	
