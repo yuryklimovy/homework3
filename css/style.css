@@ -12,6 +12,9 @@ html, body{
 	height: 100%;
 	background: #f9f9f9;
 }
+a{
+	text-decoration: none;
+}
 .main{
 	width: 1060px;
 	height: 100%;
@@ -24,12 +27,12 @@ html, body{
 }
 /*HEADER*/
 header{
-	padding: 50px 45px;
+	padding: 50px 45px 40px;
 }
 
 menu{
 	height: 40px;
-	margin: 40px 0;
+	margin: 40px 0 0 0;
 	background-image: -webkit-linear-gradient(left, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
 	background-image: -o-linear-gradient(left, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
 	background-image: linear-gradient(to right, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
@@ -48,7 +51,6 @@ menu ul li{
 	
 }
 menu ul li a{
-	text-decoration: none;
 	font-size: 14.667px;
 	font-family: "Open Sans";
 	color: #fff;
@@ -58,3 +60,33 @@ menu ul li a{
 menu ul li:hover{
 	background: url(../img/hover.png);
 }
+/*NAVIGATION*/
+nav{
+	float: left;
+	padding: 0 45px;
+}
+nav ul{
+	width: 240px;
+	height: 240px;
+	border: 1px solid #c8c8c8; 
+}
+nav ul li{
+	height: 39px;
+	padding-left: 23px;
+	border-bottom: 1px solid #c8c8c8; 
+
+}
+nav ul li:last-child{
+	border-bottom: none;
+}
+nav ul li a{
+	line-height: 40px;
+	font-size: 13.333px;
+	font-family: "Open Sans";
+	color: rgb(101, 99, 99);
+ }
+ nav ul li:hover{
+	padding-left: 32px;
+	background: #f9f9f9;
+ }
+ /*CONTENT*/
