@@ -14,6 +14,7 @@ html, body{
 }
 a{
 	text-decoration: none;
+
 }
 .main{
 	width: 1060px;
@@ -64,7 +65,8 @@ menu ul li:hover{
 /*NAVIGATION*/
 nav{
 	float: left;
-	padding-left: 45px;
+	padding-left:45px;
+
 }
 nav ul{
 	width: 240px;
@@ -92,10 +94,11 @@ nav ul li a{
  }
  /*CONTENT*/
  .content{
- 	float: right;
+ 	overflow: hidden;
  	padding-right: 45px;
  }
  .content img{
+ 	float: right;
  	width: 676px;
  	height: 398px;
  	margin-bottom: 40px;
@@ -103,7 +106,7 @@ nav ul li a{
  }
 
  .content p{
- 	padding-left: 24px;
+ 	padding-left: 72px;
  	margin-bottom: 60px;
  	width: 629px;
  	font-size: 13.333px;
@@ -111,4 +114,38 @@ nav ul li a{
 	color: #2c2c2c;
 	line-height: 1.6;
 }
-/*FOTTER*/
+/*FOOTER*/
+footer{
+	padding: 0 45px 40px;
+
+}
+footer ul{
+	overflow: hidden;
+	height: 40px;
+	background: #e1e1e1;
+	
+}
+footer ul li{
+	width: 144px;
+	height: 100%;	
+	display: inline-block;
+	text-align: center;
+
+}
+footer ul li:last-child{
+	width: 200px;
+	float: right;
+	line-height: 40px;
+	font-size: 13.333px;
+	font-family: "Open Sans";
+	color: rgb(44, 44, 44);
+}
+footer ul li a{
+	line-height: 40px;
+	font-size: 13.333px;
+	font-family: "Open Sans";
+	color: rgb(44, 44, 44);
+}
+footer ul li a:hover{
+	text-decoration: underline;
+}
